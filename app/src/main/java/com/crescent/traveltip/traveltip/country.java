@@ -60,6 +60,11 @@ public class country extends ActionBarActivity {
                         startActivity(new Intent(country.this, contacts.class));
                         break;
                     case 3:
+                        // TODO Auto-generated method stub
+                        Intent intent = new Intent(Intent.ACTION_MAIN);
+                        intent.addCategory(Intent.CATEGORY_HOME);
+                        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                        startActivity(intent);
                         finish();
                         System.exit(0);
                         break;
@@ -109,7 +114,7 @@ public class country extends ActionBarActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_home, menu);
+        getMenuInflater().inflate(R.menu.menu_country, menu);
         return true;
     }
 

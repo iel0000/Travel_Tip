@@ -79,6 +79,11 @@ public class signUp extends ActionBarActivity {
                         startActivity(new Intent(signUp.this, contacts.class));
                         break;
                     case 3:
+                        // TODO Auto-generated method stub
+                        Intent intent = new Intent(Intent.ACTION_MAIN);
+                        intent.addCategory(Intent.CATEGORY_HOME);
+                        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                        startActivity(intent);
                         finish();
                         System.exit(0);
                         break;
