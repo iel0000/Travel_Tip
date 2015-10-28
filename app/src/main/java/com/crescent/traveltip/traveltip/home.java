@@ -39,6 +39,7 @@ public class home extends ActionBarActivity {
 
         Button genInfo = (Button) findViewById(R.id.genInfo);
         Button signUp = (Button) findViewById(R.id.signUp);
+        Button country = (Button) findViewById(R.id.country);
 
         //generalinfo button
         genInfo.setOnClickListener(new View.OnClickListener(){
@@ -50,6 +51,12 @@ public class home extends ActionBarActivity {
         signUp.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
                 startActivity(new Intent(home.this, signUp.class));
+            }
+        });
+        //country button
+        country.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View v){
+                startActivity(new Intent(home.this, country.class));
             }
         });
     }
