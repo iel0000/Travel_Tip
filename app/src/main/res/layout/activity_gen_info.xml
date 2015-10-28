@@ -9,29 +9,27 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:paddingLeft="@dimen/activity_horizontal_margin"
-        android:paddingRight="@dimen/activity_horizontal_margin"
-        android:paddingTop="@dimen/activity_vertical_margin"
-        android:paddingBottom="@dimen/activity_vertical_margin"
         tools:context=".MainActivity"
         android:background="#ffffffff">
+        <include
+            android:id="@+id/tool_bar"
+            layout="@layout/tool_bar" />
 
         <ImageView
             android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:src="@drawable/logo"
             android:layout_alignParentTop="true"
-            android:layout_marginTop="-60dp"
             android:id="@+id/imageView" />
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="General Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\nGeneral Info\n"
             android:id="@+id/textView"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="150dp"/>
+            android:layout_marginTop="160dp"/>
 
 
     </RelativeLayout>
@@ -41,6 +39,7 @@
         android:layout_width="200dp"
         android:layout_height="match_parent"
         android:layout_gravity="left|start"
+        android:layout_marginTop="57dp"
         android:background="#79eeeeee"/>
 
 </android.support.v4.widget.DrawerLayout>
