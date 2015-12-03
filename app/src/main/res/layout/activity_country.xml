@@ -4,85 +4,220 @@
     android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <ScrollView
-        android:id="@+id/ScrollView01"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent">
+
         <!-- The first child in the layout is for the main Activity UI-->
+
+
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             tools:context=".MainActivity"
             android:background="#ffffffff">
+
             <include
                 android:id="@+id/tool_bar"
                 layout="@layout/tool_bar" />
+
             <ImageView
                 android:layout_width="150dp"
                 android:layout_height="wrap_content"
                 android:src="@drawable/logo"
                 android:layout_alignParentTop="true"
                 android:id="@+id/imageView" />
+
+            <ScrollView
+                android:id="@+id/ScrollView01"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="180dp">
+
             <LinearLayout
                 android:orientation="horizontal"
                 android:layout_weight="3"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
+
                 <LinearLayout
                     android:layout_height="fill_parent"
                     android:layout_width="0dp"
                     android:layout_weight="1"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:layout_marginLeft="5dp">
 
                     <Button
-                        android:layout_width="fill_parent"
-                        android:layout_height="80dp"
-                        android:text="General \n Info"
-                        android:id="@+id/genInfo"
-                        android:background="@drawable/button"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:id="@+id/ph"
+                        android:background="@drawable/philippine"
                         android:layout_alignParentTop="true"
-                        android:layout_marginTop="150dp"
-                        android:layout_marginLeft="10dp"
                         android:clickable="true"
-                        android:contextClickable="false" />
+                        android:layout_gravity="center"/>
+
+                    <Button
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:id="@+id/china"
+                        android:background="@drawable/china"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="20dp"
+                        android:clickable="true"
+                        android:layout_gravity="center"/>
+
+                    <Button
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:id="@+id/japan"
+                        android:background="@drawable/japan"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="20dp"
+                        android:clickable="true"
+                        android:layout_gravity="center"/>
+
+                    <Button
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:id="@+id/maldives"
+                        android:background="@drawable/maldives"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="20dp"
+                        android:clickable="true"
+                        android:layout_gravity="center"/>
+
+                    <Button
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:id="@+id/taiwan"
+                        android:background="@drawable/taiwan"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="20dp"
+                        android:clickable="true"
+                        android:layout_gravity="center"/>
+
                 </LinearLayout>
+
                 <LinearLayout
                     android:orientation="vertical"
                     android:layout_height="fill_parent"
                     android:layout_width="0dp"
-                    android:layout_weight="1">
+                    android:layout_weight="1"
+                    android:layout_marginLeft="2.5dp"
+                    android:layout_marginRight="2.5dp">
+
                     <Button
-                        android:layout_width="fill_parent"
-                        android:layout_height="80dp"
-                        android:text="Sign Up"
-                        android:id="@+id/signUp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/hongkong"
+                    android:layout_alignParentTop="true"
+                    android:background="@drawable/hk"
+                    android:layout_gravity="center"
+                    android:clickable="true" />
+
+                    <Button
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:id="@+id/india"
+                        android:background="@drawable/india"
                         android:layout_alignParentTop="true"
-                        android:layout_marginTop="150dp"
-                        android:layout_marginLeft="10dp"
-                        android:background="@drawable/button"
-                        android:clickable="true" />
+                        android:layout_marginTop="20dp"
+                        android:layout_gravity="center"
+                        android:clickable="true"/>
+
+                    <Button
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:id="@+id/laos"
+                        android:background="@drawable/laos"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="20dp"
+                        android:clickable="true"
+                        android:layout_gravity="center"/>
+
+                    <Button
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:id="@+id/mongolian"
+                        android:background="@drawable/mongolian"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="20dp"
+                        android:clickable="true"
+                        android:layout_gravity="center"/>
+
+                    <Button
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:id="@+id/thailand"
+                        android:background="@drawable/thailand"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="20dp"
+                        android:clickable="true"
+                        android:layout_gravity="center"/>
+
                     </LinearLayout>
 
                     <LinearLayout
                         android:orientation="vertical"
                         android:layout_height="fill_parent"
                         android:layout_width="0dp"
-                        android:layout_weight="1">
+                        android:layout_weight="1"
+                        android:layout_marginRight="5dp">
 
                     <Button
-                        android:layout_width="fill_parent"
-                        android:layout_height="80dp"
-                        android:text="Terms and\nConditions"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
                         android:id="@+id/terms"
                         android:layout_alignParentTop="true"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginTop="150dp"
-                        android:background="@drawable/button"
-                        android:clickable="true" />
+                        android:background="@drawable/cambodia"
+                        android:clickable="true"
+                        android:layout_gravity="center"/>
+                    <Button
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:id="@+id/indonesia"
+                        android:background="@drawable/indonesia"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="20dp"
+                        android:clickable="true"
+                        android:layout_gravity="center"/>
+
+                    <Button
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:id="@+id/malaysia"
+                        android:background="@drawable/malaysia"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="20dp"
+                        android:clickable="true"
+                        android:layout_gravity="center"/>
+
+                    <Button
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:id="@+id/singapore"
+                        android:background="@drawable/singapore"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="20dp"
+                        android:clickable="true"
+                        android:layout_gravity="center"/>
+
+                    <Button
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:id="@+id/vietnam"
+                        android:background="@drawable/vietnam"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="20dp"
+                        android:clickable="true"
+                        android:layout_gravity="center"/>
+
                 </LinearLayout>
+
             </LinearLayout>
+            </ScrollView>
         </RelativeLayout>
-    </ScrollView>
+
+
+
+
     <!-- Side navigation drawer UI -->
     <ListView
         android:id="@+id/navList"
