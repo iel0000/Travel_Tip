@@ -82,10 +82,10 @@ public class home extends ActionBarActivity {
                         //Toast.makeText(home.this, "Home!", Toast.LENGTH_SHORT).show();
                         break;
                     case 1:
-                        Toast.makeText(home.this, "Settings!", Toast.LENGTH_SHORT).show();
+                        startActivity(new Intent(home.this, settings.class));
                         break;
                     case 2:
-                        Toast.makeText(home.this, "Contacts!", Toast.LENGTH_SHORT).show();
+                        startActivity(new Intent(home.this, contacts.class));
                         break;
                     case 3:
                         // TODO Auto-generated method stub
