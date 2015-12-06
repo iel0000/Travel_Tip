@@ -5,14 +5,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="700dp"
+        android:scaleType="centerCrop"
+        android:background="@drawable/bg"
+        android:alpha=".30"/>
+
         <!-- The first child in the layout is for the main Activity UI-->
 
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            tools:context=".MainActivity"
-            android:background="#ffffffff">
+            tools:context=".MainActivity">
 
             <include
                 android:id="@+id/tool_bar"
@@ -52,6 +58,14 @@
                         android:layout_alignParentTop="true"
                         android:clickable="true"
                         android:layout_gravity="center"/>
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="30dp"
+                        android:gravity="center"
+                        android:text="Philippines"
+                        android:textColor="#010100"
+                        android:textStyle="bold"
+                        android:typeface="serif" />
 
                     <Button
                         android:layout_width="100dp"
@@ -63,6 +77,15 @@
                         android:clickable="true"
                         android:layout_gravity="center"/>
 
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="30dp"
+                        android:gravity="center"
+                        android:text="China"
+                        android:textColor="#010100"
+                        android:textStyle="bold"
+                        android:typeface="serif" />
+
                     <Button
                         android:layout_width="100dp"
                         android:layout_height="100dp"
@@ -72,6 +95,15 @@
                         android:layout_marginTop="20dp"
                         android:clickable="true"
                         android:layout_gravity="center"/>
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="30dp"
+                        android:gravity="center"
+                        android:text="Japan"
+                        android:textColor="#010100"
+                        android:textStyle="bold"
+                        android:typeface="serif" />
 
                     <Button
                         android:layout_width="100dp"
@@ -83,6 +115,15 @@
                         android:clickable="true"
                         android:layout_gravity="center"/>
 
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="30dp"
+                        android:gravity="center"
+                        android:text="Maldives"
+                        android:textColor="#010100"
+                        android:textStyle="bold"
+                        android:typeface="serif" />
+
                     <Button
                         android:layout_width="100dp"
                         android:layout_height="100dp"
@@ -92,6 +133,15 @@
                         android:layout_marginTop="20dp"
                         android:clickable="true"
                         android:layout_gravity="center"/>
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="30dp"
+                        android:gravity="center"
+                        android:text="Taiwan"
+                        android:textColor="#010100"
+                        android:textStyle="bold"
+                        android:typeface="serif" />
 
                 </LinearLayout>
 
@@ -112,6 +162,15 @@
                     android:layout_gravity="center"
                     android:clickable="true" />
 
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="30dp"
+                        android:gravity="center"
+                        android:text="Honkong"
+                        android:textColor="#010100"
+                        android:textStyle="bold"
+                        android:typeface="serif" />
+
                     <Button
                         android:layout_width="100dp"
                         android:layout_height="100dp"
@@ -121,6 +180,15 @@
                         android:layout_marginTop="20dp"
                         android:layout_gravity="center"
                         android:clickable="true"/>
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="30dp"
+                        android:gravity="center"
+                        android:text="India"
+                        android:textColor="#010100"
+                        android:textStyle="bold"
+                        android:typeface="serif" />
 
                     <Button
                         android:layout_width="100dp"
@@ -132,6 +200,15 @@
                         android:clickable="true"
                         android:layout_gravity="center"/>
 
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="30dp"
+                        android:gravity="center"
+                        android:text="Laos"
+                        android:textColor="#010100"
+                        android:textStyle="bold"
+                        android:typeface="serif" />
+
                     <Button
                         android:layout_width="100dp"
                         android:layout_height="100dp"
@@ -142,6 +219,15 @@
                         android:clickable="true"
                         android:layout_gravity="center"/>
 
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="30dp"
+                        android:gravity="center"
+                        android:text="Mongolia"
+                        android:textColor="#010100"
+                        android:textStyle="bold"
+                        android:typeface="serif" />
+
                     <Button
                         android:layout_width="100dp"
                         android:layout_height="100dp"
@@ -151,6 +237,15 @@
                         android:layout_marginTop="20dp"
                         android:clickable="true"
                         android:layout_gravity="center"/>
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="30dp"
+                        android:gravity="center"
+                        android:text="Thailand"
+                        android:textColor="#010100"
+                        android:textStyle="bold"
+                        android:typeface="serif" />
 
                     </LinearLayout>
 
@@ -169,6 +264,16 @@
                         android:background="@drawable/cambodia"
                         android:clickable="true"
                         android:layout_gravity="center"/>
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="30dp"
+                            android:gravity="center"
+                            android:text="Cambodia"
+                            android:textColor="#010100"
+                            android:textStyle="bold"
+                            android:typeface="serif" />
+
                     <Button
                         android:layout_width="100dp"
                         android:layout_height="100dp"
@@ -178,6 +283,15 @@
                         android:layout_marginTop="20dp"
                         android:clickable="true"
                         android:layout_gravity="center"/>
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="30dp"
+                            android:gravity="center"
+                            android:text="Indonesia"
+                            android:textColor="#010100"
+                            android:textStyle="bold"
+                            android:typeface="serif" />
 
                     <Button
                         android:layout_width="100dp"
@@ -189,6 +303,15 @@
                         android:clickable="true"
                         android:layout_gravity="center"/>
 
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="30dp"
+                            android:gravity="center"
+                            android:text="Malaysia"
+                            android:textColor="#010100"
+                            android:textStyle="bold"
+                            android:typeface="serif" />
+
                     <Button
                         android:layout_width="100dp"
                         android:layout_height="100dp"
@@ -199,6 +322,15 @@
                         android:clickable="true"
                         android:layout_gravity="center"/>
 
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="30dp"
+                            android:gravity="center"
+                            android:text="Singapore"
+                            android:textColor="#010100"
+                            android:textStyle="bold"
+                            android:typeface="serif" />
+
                     <Button
                         android:layout_width="100dp"
                         android:layout_height="100dp"
@@ -208,6 +340,15 @@
                         android:layout_marginTop="20dp"
                         android:clickable="true"
                         android:layout_gravity="center"/>
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="30dp"
+                            android:gravity="center"
+                            android:text="Vietnam"
+                            android:textColor="#010100"
+                            android:textStyle="bold"
+                            android:typeface="serif" />
 
                 </LinearLayout>
 
@@ -224,7 +365,7 @@
         android:layout_width="200dp"
         android:layout_height="match_parent"
         android:layout_gravity="left|start"
-        android:layout_marginTop="57dp"
+        android:layout_marginTop="60dp"
         android:background="#79eeeeee"/>
 
 </android.support.v4.widget.DrawerLayout>
